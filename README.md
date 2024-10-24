@@ -14,11 +14,6 @@ Pagination: Efficient navigation through multiple submission records using pagin
 React Date Picker: Integrated date selection for submissions with due dates.
 Responsive Design: Optimized for viewing across different screen sizes.
 
-### Screenshots
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### Tech Stack
 
 ### Frontend:
