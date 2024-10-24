@@ -1,0 +1,138 @@
+/* Header styling */
+.header {
+  background-color: #4285f4;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav li {
+  cursor: pointer;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+}
+
+.notifications {
+  cursor: pointer;
+}
+
+/* Content styling */
+.content {
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.view-toggle button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.view-toggle .active {
+  background-color: #4285f4;
+  color: white;
+}
+
+.submission-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.submission-item {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Controls styling */
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.controls input[type='text'],
+.controls select,
+.react-datepicker-wrapper input {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.controls input[type='text']::placeholder {
+  color: #b5b5b5;
+}
+
+/* View Toggle Styling */
+.view-toggle {
+  display: flex;
+  gap: 5px;
+}
+
+.view-toggle button {
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.view-toggle .active {
+  background-color: #4285f4;
+  color: white;
+  border-color: #4285f4;
+}
+
+/* Export Button Styling */
+.controls button {
+  background-color: transparent;
+  color: #4285f4;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  text-decoration: underline;
+}
+
+/* Icon for export */
+.export-icon {
+  font-size: 16px;
+}
