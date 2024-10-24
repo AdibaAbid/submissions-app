@@ -45,6 +45,19 @@ Prerequisites
 `npm start`
 The app will be available at `http://localhost:3000.`
 
+### Available Scripts
+In the project directory, you can run:
+
+### npm start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
+
+### npm run lint
+Runs the linter to check for code quality and syntax issues.
+It helps ensure the code follows consistent styling and catches potential errors.
+
+You can use this command to check and fix linting issues automatically. Make sure to run this before committing changes to ensure your code meets the project standards.
+
 
 ### Usage
 After starting the app, you'll see a list of submissions.
