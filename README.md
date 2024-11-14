@@ -30,7 +30,7 @@ Prerequisites
 - Node.js and npm should be installed on your machine.
 
 ### Clone the Repository
-`git clone https://github.com/AdibaAbid/submissions-app.git`
+`git clone https://github.com/username/submissions-app.git`
 `cd submissions-app`
 
 ### Install Dependencies
